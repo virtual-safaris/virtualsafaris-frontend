@@ -47,6 +47,7 @@ import { CallService } from './virtual-tour/call.service';
     Safari2Component,
     Safari3Component,
     BookingsComponent,
+    CallInfoDialogComponents,
   ],
   imports: [
     BrowserModule,
@@ -72,7 +73,7 @@ import { CallService } from './virtual-tour/call.service';
     ClipboardModule,
     MatSnackBarModule,
     CommonModule,
-    CallInfoDialogComponents,
+   
 
    
   ],
