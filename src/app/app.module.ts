@@ -13,12 +13,17 @@ import { PaymentComponent } from './payment/payment.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component'
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PaymentComponent
+    PaymentComponent,
+    LoginComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +37,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ReactiveFormsModule,
     HttpClientModule,
     NoopAnimationsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
