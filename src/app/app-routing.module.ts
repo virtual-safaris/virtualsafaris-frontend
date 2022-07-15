@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { Safari1Component } from './safari1/safari1.component';
@@ -10,6 +10,8 @@ import { RegisterComponent } from './register/register.component';
 import { BookingsComponent } from './bookings/bookings.component';
 
 
+
+
 const routes: Routes = [
   {path: '', component: LandingPageComponent},
   {path: 'bookings', component: BookingsComponent},
@@ -18,8 +20,9 @@ const routes: Routes = [
   {path: 'safari2', component: Safari2Component},
   {path: 'safari3', component: Safari3Component },
   { path: 'pay', component: PaymentComponent },
-  { path: '/login', component:LoginComponent },
-  { path: '/register', component:RegisterComponent },
+  { path: 'login', component:LoginComponent },
+  { path: 'register', component:RegisterComponent },
+  
 
   
   ];

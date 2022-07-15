@@ -1,30 +1,3 @@
-nav {
-    /*text-align: center; */
-    font-size: 25px;
-    background-color: #49224A;
-    color: cornsilk;
-}
-
-.navbar-brand {
-    color: white;
-    font: bold;
-    padding-left: 40px;
-    font-family: 'Big Shoulders Stencil Text', cursive;
-    font-size: 40px;
-}
-
-#loginb {
-    background-color: #49224A;
-    /* border-color: white; */
-    margin-right: 10px;
-    color: white;
-}
-
-#signb {
-    background-color: white;
-    color: #49224A;
-    margin-right: 16px;
-}
 
 .buttn {
     margin-left: 1000px;
@@ -57,7 +30,7 @@ input[type=number] {
     box-shadow: 0px 0px 0px 0px;
     border-radius: 10px 10px 10px 10px;
     background: white;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 #regform {
@@ -81,16 +54,16 @@ hr {
 
 /* Set a style for all buttons */
 
-.signupbtn {
+/* .signupbtn {
     background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
-    /* border: none; */
+    border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-}
+} */
 
 .btn-pri {
     background-color: #E2AA2E;
@@ -231,7 +204,7 @@ form {
     margin-top: 100px;
     align-items: center;
     justify-content: center;
-    margin-left: 12cm;
+    margin-left: 8cm;
     font-family: 'Times New Roman', Times, serif;
 
 

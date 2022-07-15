@@ -30,7 +30,7 @@ import { CallInfoDialogComponents } from './virtual-tour/dialog/dialog.component
 import { MatDialogModule } from '@angular/material/dialog';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { CallService } from './virtual-tour/call.service';
+import { CallService } from './call.service';
 
 
 

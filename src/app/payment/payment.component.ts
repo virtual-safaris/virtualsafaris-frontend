@@ -13,7 +13,7 @@ export class PaymentComponent implements OnInit {
     number: ['', Validators.required],
     amount: ['', Validators.required],
   })
-
+ 
   constructor( private formBuilder : FormBuilder,
               private http : HttpClient,
               private router: Router) {
@@ -28,7 +28,11 @@ export class PaymentComponent implements OnInit {
 
     this.http.post(`https://virtualsafaris-backend.herokuapp.com/api/v1/online/lipa/${formdata.number}/${formdata.amount}/`,this.paymentForm.getRawValue())
     .subscribe(() => this.router.navigate(['/']));
+    
+
   }
+ 
+
 }
 
 
