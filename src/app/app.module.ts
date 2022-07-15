@@ -8,7 +8,7 @@ import {MatCardModule} from '@angular/material/card';
 import { RouterModule } from '@angular/router';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { Observable, of } from 'rxjs';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,7 +30,7 @@ import { CallInfoDialogComponents } from './virtual-tour/dialog/dialog.component
 import { MatDialogModule } from '@angular/material/dialog';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { CallService } from './call.service';
+import { CallService } from './virtual-tour/tour/call.service';
 
 
 
@@ -73,6 +73,7 @@ import { CallService } from './call.service';
     ClipboardModule,
     MatSnackBarModule,
     CommonModule,
+    Observable,
    
 
    
